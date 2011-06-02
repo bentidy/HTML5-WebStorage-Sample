@@ -1,0 +1,63 @@
+body
+{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#board
+{    
+    min-height:100px;
+    position:relative;
+}
+
+.title
+{
+    background-color: #0000FF;
+    text-align:center;
+    color:white;
+    padding: 2px 0px;
+    font-weight: blue;
+}
+
+#basket
+{
+    left:320px;
+}
+
+#flights, #basket
+{
+    background-color: #DCDCDC;
+
+    position:absolute;
+
+    width: 300px;
+    min-height:150px;
+    border: 2px solid black;
+
+}
+
+*[draggable=true]
+{
+    cursor: move;
+    float:left;    
+    width: 100px;
+    height: 100px; 
+    clear: left;
+    margin: 20px;
+}
+
+div.airplane {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+#blue {
+    background-image: url('images/blue_airplane.gif');
+}
+
+#red {
+    background-image: url('images/red_airplane.gif');
+}
+
+#green {
+    background-image: url('images/green_airplane.gif');
+}
